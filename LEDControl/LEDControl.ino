@@ -28,10 +28,6 @@ int pin3_6 = 22;
 int pin3_7 = 23;
 int pin3_8 = 24;
 
-//looping variables
-int i = 1;
-int j = 0;
-
 void setup() {
   //sets necessary pins to output
   pinMode (pin1_1, OUTPUT);
@@ -63,16 +59,16 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  while (int i <= 3){
-    while (int j <= 8){
-      lightsOn(i, j);
-      j++;
-    }
-    i++;
-  }
-  i=1;
-  j=0;
+  //call a few random configurations of lights as test cases
+  lightsOn (1,4);
+  delay 1000;
+  lightsOn (2,7);
+  delay 1000:
+  lightsOn (3,5);
+  delay 1000;
+  lightsOn(1,0);
+  lightsOn(2,0);
+  lightsOn(3,0);
 }
 
 //function controlling how many lights are on in a given row
