@@ -61,11 +61,11 @@ void setup() {
 void loop() {
   //call a few random configurations of lights as test cases
   lightsOn (1,4);
-  delay 1000;
+  delay (1000);
   lightsOn (2,7);
-  delay 1000:
+  delay (1000);
   lightsOn (3,5);
-  delay 1000;
+  delay (1000);
   lightsOn(1,0);
   lightsOn(2,0);
   lightsOn(3,0);
