@@ -69,6 +69,7 @@ void loop() {
   lightsOn(1,0);
   lightsOn(2,0);
   lightsOn(3,0);
+  delay(1000);
 }
 
 //function controlling how many lights are on in a given row
