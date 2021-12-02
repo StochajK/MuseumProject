@@ -1,5 +1,5 @@
 //variables for pin numbers, first row of LEDs
-int pin1_1 = 1;
+int pin1_1 = 25;
 int pin1_2 = 2;
 int pin1_3 = 3;
 int pin1_4 = 4;
@@ -66,6 +66,14 @@ void loop() {
   delay (1000);
   lightsOn (3,5);
   delay (1000);
+  lightsOn(1,0);
+  lightsOn(2,0);
+  lightsOn(3,0);
+  delay(1000);
+  lightsOn(1,8);
+  lightsOn(2,8);
+  lightsOn(3,8);
+  delay(1000);
   lightsOn(1,0);
   lightsOn(2,0);
   lightsOn(3,0);
